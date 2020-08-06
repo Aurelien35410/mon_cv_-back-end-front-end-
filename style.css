@@ -1,0 +1,205 @@
+body{
+  width: 100%;
+}
+
+#topBar{
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+}
+
+.nav-link{
+  color: white;
+}
+
+#cv:hover{
+  color: white;
+  font-weight: bold;
+}
+
+#recrutDiv{
+  width: 100%;
+  padding-top : 200px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.rotateText{
+  padding-top: 100px;
+  font-size: 56px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #222;
+  color: #aaa
+}
+
+#portraitDiv{
+  padding-top : 100px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#caracteristiqueDiv{
+  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+  color: #aaa
+}
+
+#caracteristiqueDiv ul{
+  list-style: none;
+}
+
+#competenceDiv{
+  padding-top : 100px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#competenceDiv h1{
+  margin-bottom: 50px;
+}
+
+#competenceBar{
+  justify-content: center;
+}
+
+.rowContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: white solid 1px;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.content img{
+  margin : 10px;
+}
+
+#projectDiv{
+  padding-top : 100px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#formationDiv{
+  padding-top : 100px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.formationCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card a{
+  color: white;
+  text-decoration: none;
+}
+
+.card a:hover{
+  font-weight: bold;
+}
+
+#parcoursDiv{
+  padding-top : 100px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#parcoursDiv h1{
+  margin : 100px;
+}
+
+#schoolDiv{
+  padding-top: 100px;
+  justify-content: center;
+}
+
+
+#profesionalDiv{
+  padding-top: 100px;
+  justify-content: center;
+}
+
+
+table{
+  padding-top : 100px;
+  background-color: #222;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 200px;
+  width: 80%;
+  margin: auto;
+  border: solid 1px white;
+}
+
+th{
+  text-align: center;
+  border: dashed 1px white;
+  padding: 5px;
+}
+
+#contactDiv{
+  padding-top: 100px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+
+.form-row{
+  justify-content: center;
+}
+
+#contactDiv p{
+  color: white;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+textarea{
+  max-width: 100%;
+}
+
+
+footer{
+  color : white;
+  text-align: center;
+}
+
+#footerIcon img{
+  margin: 30px;
+  width: 50px;
+  height: auto;
+}
+
+#footerIcon img:hover{
+  transform: scale(1.2);
+}
+
+#coordonnéesDiv{
+  padding: 50px;
+}
